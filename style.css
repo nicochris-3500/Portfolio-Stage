@@ -1,0 +1,151 @@
+
+/* STYLE GENERAL */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+
+/* HEADER */
+
+header {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #cbd5e1;
+}
+
+
+/* BOUTON */
+
+.btn {
+    display: inline-block;
+    background-color: #38bdf8;
+    color: #1e293b;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #0ea5e9;
+    transform: translateY(-2px);
+}
+
+
+/* CONTENU PRINCIPAL */
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+
+/* CARTES */
+
+.card {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+    color: #1e293b;
+    margin-top: 0;
+}
+
+
+/* LISTE DES COMPETENCES */
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+
+/* PAGE CONTACT */
+
+.contact-container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.contact-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.contact {
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.contact a {
+    color: #0284c7;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #64748b;
+}
+
+
+/* VERSION MOBILE */
+
+@media screen and (max-width: 600px) {
+
+    header {
+        padding: 35px 15px;
+    }
+
+    .container,
+    .contact-container {
+        padding: 0 15px;
+    }
+
+    .card,
+    .contact-card {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+
+}
